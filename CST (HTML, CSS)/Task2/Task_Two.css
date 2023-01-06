@@ -1,0 +1,32 @@
+body {
+  background: rgb(20, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 36, 0, 0.9) 0%,
+    rgba(9, 121, 113, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-size: 1.5rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.anchor__container {
+  margin-top: 20rem;
+  font-size: 1.5rem;
+}
+
+.anchor {
+  display: block;
+  color: #000;
+}
+
+.next {
+  text-align: right;
+}
+
+.gif {
+  text-align: center;
+}

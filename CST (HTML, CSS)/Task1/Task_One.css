@@ -1,0 +1,21 @@
+body {
+  background: rgb(20, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 36, 0, 0.9) 0%,
+    rgba(9, 121, 113, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.paragraph {
+  text-align: right;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+.img__parent {
+  display: block;
+  text-align: center;
+  margin-top: 10rem;
+}

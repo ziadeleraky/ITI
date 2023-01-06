@@ -1,0 +1,54 @@
+body {
+  background: rgb(20, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 36, 0, 0.9) 0%,
+    rgba(9, 121, 113, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+/* Navbar */
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+  padding: 1.2rem;
+}
+
+ul li a {
+  text-decoration: none;
+  text-shadow: 1px 1px 1.5px black;
+}
+
+.img__container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+a {
+  color: #eee;
+}
+
+.search {
+  display: block;
+  text-align: center;
+  margin-top: 2.5rem;
+  font-size: 2rem;
+}
+
+/* ***** footer ***** */
+
+.footer {
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-top: 100px;
+}
+
+.monkey {
+  width: 5%;
+  margin-top: 2.5rem;
+}
