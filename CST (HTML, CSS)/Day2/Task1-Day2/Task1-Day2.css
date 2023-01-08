@@ -1,0 +1,40 @@
+body {
+  background: rgb(20, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 36, 0, 0.9) 0%,
+    rgba(9, 121, 113, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.table {
+  display: block;
+  width: fit-content;
+  margin: 5rem auto;
+  box-shadow: 3px 5px 5px black;
+}
+
+.table * :not(label, u) {
+  border: 1px solid black;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+
+u {
+  display: block;
+  padding: 1.25rem;
+  font-size: 2rem;
+}
+
+.dateInput {
+  width: 25%;
+  max-width: fit-content;
+}
+
+.submitButton {
+  display: block;
+  width: 25%;
+  margin: 5px auto;
+}

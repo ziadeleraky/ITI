@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./loginForm.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>Login</legend>
+      <div class="userName">
+        <label for="username">Username: </label>
+        <input type="text" placeholder="Enter your username" id="username"/>
+      </div>
+      <div class="pass">
+        <label for="password">Password: </label>
+        <input type="password" placeholder="Enter your password" id="password" />
+      </div>
+      <div class="location">
+        <label for="loc">Select Your Location: </label>
+        <select name="location" id="loc">
+          <optgroup label="Africa">
+            <option value="Egypt">Egypt</option>
+            <option value="Sudan">Sudan</option>
+            <option value="Namibia">Namibia</option>
+          </optgroup>
+          <optgroup label="Europe">
+            <option value="France">France</option>
+            <option value="Russia">Russia</option>
+            <option value="UK">UK</option>
+          </optgroup>
+          <optgroup label="North America" disabled>
+            <option value="Canada">Canada</option>
+            <option value="Mexico">Mexico</option>
+            <option value="USA">USA</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="remember">
+        <input type="checkbox" name="rememberme" id="rm" accesskey="m" />
+        <label for="rm">Remember <u>M</u>e</label>
+      </div>
+      <div class="login">
+        <input type="submit" value="Login" />
+      </div>
+    </fieldset>
+  </body>
+</html>

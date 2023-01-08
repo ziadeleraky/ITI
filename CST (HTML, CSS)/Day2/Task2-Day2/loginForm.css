@@ -1,0 +1,29 @@
+body {
+  background: rgb(20, 36, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 36, 0, 0.9) 0%,
+    rgba(9, 121, 113, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #eee;
+  font-size: 1.2rem;
+}
+
+fieldset {
+  width: 50vw;
+  margin: 5rem auto;
+}
+
+div select,
+input:not([type="checkbox"]) {
+  display: block;
+  margin-left: auto;
+}
+
+.login {
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+  font-size: ;
+}

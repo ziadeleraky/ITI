@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application</title>
+    <link rel="stylesheet" href="./Task1-Day2.css" />
+  </head>
+  <body>
+    <table class="table">
+      <form action="../Task2-Day2/loginForm.html" method="get">
+        <!-- Info -->
+        <tr>
+          <td><label for="fname">First Name</label></td>
+          <td>
+            <input
+              id="fname"
+              name="fname"
+              type="text"
+              placeholder="Enter First Name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="lname">Last Name</label></td>
+          <td>
+            <input
+              id="lname"
+              type="text"
+              placeholder="Enter Last Name"
+              name="lname"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td>
+            <input
+              id="password"
+              type="password"
+              placeholder="Enter Password"
+              name="password"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">Gender</td>
+          <td><input type="radio" id="m" name="gender"/><label for="m">Male</label></td>
+        </tr>
+        <tr>
+          <td><input type="radio" id="f" name="gender"/><label for="f">Female</label></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="birthday">Birthday: </label>
+            <input type="month" placeholder="Month" value="month" name="birthdayMonth" />
+          </td>
+          <td>
+            <input type="number" placeholder="dd" class="dateInput" name="birthdayDay"/>
+            <input type="number" placeholder="yyyy" class="dateInput" name="birthdayYear"/>
+          </td>
+        </tr>
+        <!-- Interests -->
+        <tr>
+          <th colspan="2"><u>Interests</u></th>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="sports" name="interests"/>
+            <label for="sports">Sports</label>
+          </td>
+          <td>
+            <input type="checkbox" id="music" name="interests"/>
+            <label for="music">Music</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="books" name="interests"/>
+            <label for="books">Books</label>
+          </td>
+          <td>
+            <input type="checkbox" id="computer" name="interests"/>
+            <label for="computer">Computer Stuff</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="fashion" name="interests"/>
+            <label for="fashion">Fashion</label>
+          </td>
+          <td>
+            <input type="checkbox" id="movies" name="interests"/>
+            <label for="movies">Movies</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="Submit" class="submitButton" />
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
