@@ -1,0 +1,4 @@
+ - Installation
+1- Display "Hello World"
+2- Display ASCII code for a given character.
+3- Display Hexadecimal representation for a given integer.
