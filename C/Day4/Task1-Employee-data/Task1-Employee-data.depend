@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1666790167 source:d:\my files\programming\iti 9-month ui\5- c\day4\task1-employee-data\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
