@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1666848875 source:d:\my files\programming\iti 9-month ui\5- c\day4\task4-take-key\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
