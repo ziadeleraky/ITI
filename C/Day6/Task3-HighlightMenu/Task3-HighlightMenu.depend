@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1667460018 source:d:\my files\programming\iti 9-month ui\6- oop with c++\task3-highlightmenu\main.c
+	<stdio.h>
+	<conio.h>
+	"MyLibrary.h"
+
+1667425518 d:\my files\programming\iti 9-month ui\6- oop with c++\task3-highlightmenu\mylibrary.h
+	<windows.h>
+
