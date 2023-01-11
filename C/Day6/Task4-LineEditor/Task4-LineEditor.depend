@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1667565029 source:d:\my files\programming\iti 9-month ui\5- c\day6\task4-lineeditor\main.c
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+
+1667425518 d:\my files\programming\iti 9-month ui\5- c\day6\task4-lineeditor\mylibrary.h
+	<windows.h>
+
