@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1667584967 source:d:\my files\programming\iti 9-month ui\5- c\day7\task4-multilineeditor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1667425518 d:\my files\programming\iti 9-month ui\5- c\day7\task4-multilineeditor\mylibrary.h
+	<windows.h>
+
