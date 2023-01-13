@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1667897387 source:d:\my files\programming\iti 9-month ui\6- oop with c++\day5\task1-relationships\main.cpp
+	<iostream>
+	<graphics.h>
+
+1667819708 d:\my files\programming\iti 9-month ui\6- oop with c++\day5\task1-relationships\graphics.h
+	<iostream>
+	<math.h>
+	<windows.h>
+	<Windows.h>
+
