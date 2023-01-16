@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ROOT - Family -->
+<!ELEMENT family (grandfather)>
+
+<!-- Grandfather -->
+<!ELEMENT grandfather (#PCDATA|father|uncle|aunt)*>
+
+<!-- Father -->
+<!ELEMENT father (mother,daughter+,son)>
+<!ATTLIST father job CDATA #REQUIRED name CDATA #REQUIRED>
+
+<!-- Mother & Name -->
+<!ELEMENT mother (name)>
+<!ELEMENT name (#PCDATA)>
+
+<!-- Daughter -->
+<!ELEMENT daughter (#PCDATA|name|child)*>
+<!ATTLIST daughter age CDATA #REQUIRED job CDATA #REQUIRED>
+
+<!-- Child-->
+<!ELEMENT child (#PCDATA)>
+
+<!-- Uncle -->
+<!ELEMENT uncle (#PCDATA)>
+
+<!-- Aunt -->
+<!ELEMENT aunt (#PCDATA)>
+<!ATTLIST aunt sons CDATA #REQUIRED>
+
+<!-- Son -->
+<!ATTLIST son age CDATA #REQUIRED sport CDATA #REQUIRED>
+<!ELEMENT son (#PCDATA)>
