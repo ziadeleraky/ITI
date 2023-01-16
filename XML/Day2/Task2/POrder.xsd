@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+	<xs:element name="purchaseOrder">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="shipTo"></xs:element>
+				<xs:element ref="billTo"></xs:element>
+				<xs:element ref="items"></xs:element>
+				<xs:element name="ship_date" type="xs:string"></xs:element>
+				<xs:element ref="ship_method"></xs:element>
+			</xs:sequence>
+			<xs:attribute name="orderDate" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- Ship To -->
+	<xs:element name="shipTo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name"></xs:element>
+				<xs:element ref="street"></xs:element>
+				<xs:element ref="city"></xs:element>
+				<xs:element ref="state"></xs:element>
+				<xs:element ref="zip"></xs:element>
+			</xs:sequence>
+			<xs:attribute name="country" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- Bill To -->
+	<xs:element name="billTo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="name"></xs:element>
+				<xs:element ref="street"></xs:element>
+				<xs:element ref="city"></xs:element>
+				<xs:element ref="state"></xs:element>
+				<xs:element ref="zip"></xs:element>
+			</xs:sequence>
+			<xs:attribute name="country" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="name" type="xs:string"></xs:element>
+	<xs:element name="street" type="xs:string"></xs:element>
+	<xs:element name="city" type="xs:string"></xs:element>
+	<xs:element name="state" type="xs:string"></xs:element>
+	<xs:element name="zip" type="xs:integer"></xs:element>
+	
+	<!-- Items -->
+	<xs:element name="items">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="item" minOccurs="1" maxOccurs="unbounded"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="item">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="productName"></xs:element>
+				<xs:element ref="quantity"></xs:element>
+				<xs:element ref="USPrice"></xs:element>
+			</xs:sequence>
+			<xs:attribute name="partNum" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="productName" type="xs:string"></xs:element>
+	<xs:element name="quantity" type="xs:string"></xs:element>
+	<xs:element name="USPrice" type="xs:string"></xs:element>
+	
+	<!-- Ship Method -->
+	<xs:element name="ship_method">
+		<xs:complexType>
+			<xs:attribute name="type" type="xs:string"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	
+	
+</xs:schema>
