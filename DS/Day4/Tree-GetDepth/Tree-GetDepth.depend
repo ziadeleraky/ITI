@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1670596853 source:d:\my files\programming\iti 9-month ui\11- ds\day4\tasks\tree-getdepth\main.cpp
+	<iostream>
+	"Tree.h"
+
+1670597112 d:\my files\programming\iti 9-month ui\11- ds\day4\tasks\tree-getdepth\include\tree.h
+	<iostream>
+	"Node.h"
+
+1670595929 d:\my files\programming\iti 9-month ui\11- ds\day4\tasks\tree-getdepth\include\node.h
+
