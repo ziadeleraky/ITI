@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1670486381 source:d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\circularqueue\main.cpp
+	<iostream>
+	<CircularQueue.h>
+
+1670486731 d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\circularqueue\include\circularqueue.h
+	<iostream>
+
