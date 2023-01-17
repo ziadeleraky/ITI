@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1670440528 source:d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\stack\stackusinglinkedlist\main.cpp
+	<iostream>
+	"Stack.h"
+
+1670440553 d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\stack\stackusinglinkedlist\include\stack.h
+	"Node.h"
+	<iostream>
+
+1670440523 d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\stack\stackusinglinkedlist\include\node.h
+
+1670440795 source:d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\stackusinglinkedlist\main.cpp
+	<iostream>
+	"Stack.h"
+
+1670440553 d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\stackusinglinkedlist\include\stack.h
+	"Node.h"
+	<iostream>
+
+1670440523 d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\stackusinglinkedlist\include\node.h
+
