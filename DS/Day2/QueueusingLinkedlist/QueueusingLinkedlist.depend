@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1670456050 source:d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\queueusinglinkedlist\main.cpp
+	<iostream>
+	<Queue.h>
+
+1670455491 d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\queueusinglinkedlist\include\queue.h
+	"Node.h"
+	<iostream>
+
+1670455049 d:\my files\programming\iti 9-month ui\11- ds\day2\tasks\queueusinglinkedlist\include\node.h
+
