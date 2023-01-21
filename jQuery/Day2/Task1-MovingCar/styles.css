@@ -1,0 +1,13 @@
+body {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#img-container {
+  position: relative;
+}
+
+#img {
+  position: absolute;
+  box-shadow: 0 1px 0px black;
+}
