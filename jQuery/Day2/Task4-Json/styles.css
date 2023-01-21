@@ -1,0 +1,17 @@
+div {
+  font-size: 30px;
+  text-align: center;
+}
+
+#band {
+  margin-top: 25px;
+  width: 15%;
+  font-size: 20px;
+  
+}
+
+#artist {
+  margin-top: 25px;
+  width: 15%;
+  font-size: 20px;
+}
