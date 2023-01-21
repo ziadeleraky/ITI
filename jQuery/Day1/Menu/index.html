@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="menu">
+        <ul>
+          <li class="list">About</li>
+          <li class="list">Gallary</li>
+          <li class="list ser">Services</li>
+          <li class="list">Complain</li>
+        </ul>
+      </div>
+      <div id="about">
+        <div class="about-container">
+          <h2>Story About Snow Man</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, asperiores. Ratione, rem sequi corporis cumque, laborum asperiores vero,
+            repudiandae ut eligendi animi magnam? Eum consequatur quas fugiat doloribus minus qui?
+          </p>
+        </div>
+      </div>
+      <div id="gallery">
+        <div class="gallery-container">
+          <img class="left" src="./imgs/left.png" alt="Left arrow" />
+          <img class="image" src="./imgs/1.jpg" alt="" />
+          <img class="right" src="./imgs/right.png" alt="Right arrow" />
+        </div>
+      </div>
+      <div id="services">
+        <ul>
+          <li>Take Pictures</li>
+          <li>Edit Pictures</li>
+          <li>Buy Pictures</li>
+        </ul>
+      </div>
+      <div id="complain">
+        <div class="complain-container">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" />
+          </div>
+          <div>
+            <p>Complain</p>
+            <textarea id="complain-msg" placeholder="Enter your complain..." rows="10" cols="40"></textarea>
+          </div>
+          <input type="button" value="Send" class="btn"/>
+        </div>
+        <div class="complain-response">
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <input id="edit" type="button" value="Back to edit">
+        </div>
+      </div>
+    </div>
+
+    <script src="./CookiesLibrary.js"></script>
+    <script src="./jqueryDevMin.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
