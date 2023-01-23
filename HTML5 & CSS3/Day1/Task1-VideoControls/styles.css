@@ -1,0 +1,37 @@
+body {
+  background-image: linear-gradient(90deg, #1e3c72 10%, #2a5298 90%);
+  text-align: center;
+  color: white;
+}
+
+#range {
+  display: inline;
+}
+
+#video-range {
+  width: 550px;
+  margin-right: 10px;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+
+#play,
+#pause,
+#start,
+#end,
+#skip5sec,
+#back5sec,
+#mute,
+#stop {
+  margin-top: 10px;
+  color: black;
+  background-color: white;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sound, .speed {
+  margin-top: 10px;
+}

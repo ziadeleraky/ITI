@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Controls</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <video id="video" src="./assets/video/frozen.mp4" poster="./assets/image/frozen.jpg" width="650"></video>
+    <div class="controls">
+      <div class="range">
+        <input id="video-range" type="range" min="0" step="1" value="0" />
+        <!-- <span id="current"></span><span>/</span><span id="duration"></span> -->
+        <span id="timer">aa</span>
+      </div>
+      <button id="play">Play</button>
+      <button id="pause">Pause</button>
+      <button id="stop">Stop</button>
+      <button id="start"><<</button>
+      <button id="back5sec"><</button>
+      <button id="skip5sec">></button>
+      <button id="end">>></button>
+      <div class="sound">
+        <label>Sound: </label>
+        <input id="volume-range" type="range" min="0" max="100" step="1" value="100"/>
+        <button id="mute">Mute</button>
+      </div>
+      <div class="speed">
+        <label>Speed: </label>
+        <input id="speed-range" type="range" min="0.5" max="1.5" step="0.5" value="1" list="ranges"/>
+        <datalist id="ranges">
+          <option value=".5"></option>
+          <option value="1"></option>
+          <option value="1.5"></option>
+        </datalist>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
