@@ -1,0 +1,16 @@
+p {
+  text-shadow: 1px 1px 3px black;
+  background-color: #ccddee;
+  border: 1px solid #8792f9;
+  border-radius: 20px;
+  width: fit-content;
+  margin: auto;
+  padding: 5px 20px;
+  margin-top: 350px;
+  font-size: 1.5rem;
+  transition: all 2s;
+}
+
+p:hover {
+  box-shadow: 1px 1px 20px #8792f9;
+}
