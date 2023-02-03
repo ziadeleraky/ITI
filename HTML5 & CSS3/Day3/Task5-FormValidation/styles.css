@@ -1,0 +1,7 @@
+#text:valid + p {
+  display: none;
+}
+
+#email:valid + p {
+  display: none;
+}
