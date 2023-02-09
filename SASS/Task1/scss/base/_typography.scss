@@ -1,0 +1,7 @@
+$i: 14px;
+@while $i <= 18px {
+  .font-#{$i} {
+    font-size: $i;
+  }
+  $i: $i + 2px;
+}

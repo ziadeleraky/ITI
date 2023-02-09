@@ -1,0 +1,28 @@
+@import "./abstracts/variables";
+@import "./base/typography";
+
+.main {
+  &-title {
+    color: $primary;
+  }
+  &-subtitle {
+    color: $secondary;
+  }
+  &-btn {
+    color: $primary;
+    &:hover {
+      color: $secondary;
+    }
+  }
+}
+
+.finish-btn {
+  @media (max-width: 767px) {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+}

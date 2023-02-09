@@ -1,0 +1,39 @@
+.font-14px {
+  font-size: 14px;
+}
+
+.font-16px {
+  font-size: 16px;
+}
+
+.font-18px {
+  font-size: 18px;
+}
+
+.main-title {
+  color: #0d6efd;
+}
+.main-subtitle {
+  color: #8a9198;
+}
+.main-btn {
+  color: #0d6efd;
+}
+.main-btn:hover {
+  color: #8a9198;
+}
+
+@media (max-width: 767px) {
+  .finish-btn {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 576px) {
+  .finish-btn {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
