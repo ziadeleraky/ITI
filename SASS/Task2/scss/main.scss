@@ -1,0 +1,64 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  &-fluid {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+@mixin gridcreator($numofcols: 12, $screenname: "", $brekpoint: 0px) {
+  @if ($screenname == "") {
+    @media all and (min-width: $brekpoint) {
+      @for $i from 1 through $numofcols {
+        .col-#{$i} {
+          width: 100/ ($numofcols/$i) * 1%;
+        }
+      }
+    }
+  } @else {
+    @media all and (min-width: $brekpoint) {
+      @for $i from 1 through $numofcols {
+        .col-#{$screenname}-#{$i} {
+          width: 100/ ($numofcols / $i) * 1%;
+        }
+      }
+    }
+  }
+}
+
+@include gridcreator(12, "", 0px);
+@include gridcreator(12, "sm", 576px);
+@include gridcreator(12, "md", 768px);
+@include gridcreator(12, "lg", 992px);
+@include gridcreator(12, "xl", 1200px);
+@include gridcreator(12, "xxl", 1600px);
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  background-image: linear-gradient(90deg, #1e3c72 10%, #2a5298 90%);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+input {
+  margin: 30px;
+}
+
+.row {
+  justify-content: center;
+}
+
+.h1 {
+  margin: 50px 0 0 50px;
+}
