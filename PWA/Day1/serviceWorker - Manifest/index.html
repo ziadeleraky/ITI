@@ -1,0 +1,82 @@
+<!--
+Copyright 2018 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding -->
+    <meta charset="utf-8" />
+    <!-- Set the viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Set title -->
+    <title>Service Worker Example</title>
+    <!-- Add stylesheet -->
+    <link href="manifest/manifest.webmanifest" rel="manifest" />
+    <link href="styles/index.css" rel="stylesheet" />
+    <!-- <link rel="manifest" href="manifest.webmanifest" > -->
+  </head>
+  <body>
+    <h1>Service Worker Example</h1>
+    <a href="other.html">Other page</a>
+    <br /><br />
+    <a href="below/another.html">Another page</a>
+    <br>
+    <button id="add">Download</button>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        // console.log('true')
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("serviceworker.js")
+            .then((registration) => {
+              console.log("service worker registered ", registration);
+            })
+            .catch((err) => {
+              console.log("registration failed", err);
+            });
+        });
+
+        let addBtn = document.getElementById("add");
+        let installation;
+        window.addEventListener("beforeinstallprompt", (e) => {
+          // Prevent Chrome 67 and earlier from automatically showing the prompt
+          e.preventDefault();
+          // Stash the event so it can be triggered later.
+          // Update UI to notify the user they can add to home screen
+          installation = e;
+          addBtn.addEventListener("click", (e) => {
+            // hide our user interface that shows our A2HS button
+            // Show the prompt
+            console.log('clicked');
+            installation.prompt();
+            // Wait for the user to respond to the prompt
+            installation.userChoice.then((choiceResult) => {
+              if (choiceResult.outcome === "accepted") {
+                console.log("installed");
+              } else {
+                console.log("cancelled");
+              }
+              installation = null;
+            });
+          });
+        });
+      }
+
+      // Script to register the service worker goes here
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
