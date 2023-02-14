@@ -1,0 +1,18 @@
+#sec-container {
+  width: 500px;
+  height: 500px;
+  border: 3px solid black;
+  text-align: center;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+#sec-container section {
+  border: 2px solid red;
+  width: fit-content;
+  padding: 50px;
+  border-radius: 15px;
+}
