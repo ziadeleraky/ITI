@@ -4,8 +4,6 @@
 
 I'm happy to share my solutions for the ITI's tasks with you, you can review my code, and feel free to contact me anytime.
 
-I'm waiting for your feedback 😊.
-
 <br>
 
 <h1>ℹ️ About</h1>
