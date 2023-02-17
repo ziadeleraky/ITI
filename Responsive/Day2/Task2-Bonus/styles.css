@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: #3bbced;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "one two two"
+    "one three four"
+    "five five four";
+  height: 100vh;
+  text-align: center;
+}
+
+.container div {
+  background-color: #333333;
+  color: white;
+  margin: 5px;
+  padding: 100px;
+  font-size: 1.5rem;
+}
+
+.child1 {
+  grid-area: one;
+}
+.child2 {
+  grid-area: two;
+}
+.child3 {
+  grid-area: three;
+}
+.child4 {
+  grid-area: four;
+}
+.child5 {
+  grid-area: five;
+}
+.child6 {
+  grid-area: six;
+}
+
+@media (max-width: 1080px) {
+  .container {
+    transition: all 3sec;
+    animation: rotating 2s;
+  }
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
