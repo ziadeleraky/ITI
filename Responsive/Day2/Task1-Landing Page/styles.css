@@ -1,0 +1,50 @@
+.navv li a:hover {
+  color: white !important;
+}
+
+.img-rss {
+  width: 25px;
+  height: 25px;
+}
+
+.iintro {
+  background-color: #b4dd10;
+}
+
+@media (max-width: 767.99px) {
+  h2,
+  p {
+    font-size: 12px;
+    margin-left: 0 !important;
+  }
+
+  aside {
+    display: none;
+  }
+}
+
+@media (max-width: 575.99px) {
+  #intro {
+    display: none !important;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+a {
+  color: #777777;
+}
+
+a:hover {
+  color: black;
+}
+
+.ul li a:hover {
+  color: black;
+}
+
+footer a:hover {
+  color: white;
+}
