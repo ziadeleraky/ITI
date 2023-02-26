@@ -1,0 +1,70 @@
+body {
+  background-color: rgba(71, 44, 8, 0.233);
+}
+#taskInput {
+  width: 300px;
+  height: 30px;
+  border: solid 2px;
+  border-radius: 16px;
+  border-color: rgba(0, 0, 0, 0.363);
+  background-color: antiquewhite;
+  padding-left: 10px;
+  /* //position: relative;
+  //margin-left: 10%; */
+}
+
+#btnAdd {
+  width: 70px;
+  height: 30px;
+  color: gray;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+#btnAdd:hover {
+  background-color: rgb(255, 198, 123);
+}
+
+.task {
+  display: inline-block;
+  border: 2px solid;
+  padding: 8px;
+  border-radius: 25px;
+  margin: 8px;
+  position: relative;
+  width: 400px;
+  border-color: rgba(0, 0, 0, 0.274);
+}
+
+.delete,
+.done {
+  background-color: antiquewhite;
+  border-radius: 12px;
+  display: inline;
+  border: none;
+  padding: 8px;
+  margin-left: 10px;
+  margin-right: 4px;
+  color: gray;
+  font-weight: bold;
+}
+.delete:hover,
+.done:hover {
+  background-color: rgb(253, 190, 108);
+  color: gray;
+}
+
+.TaskDone {
+  color: brown;
+  background-color: rgba(255, 0, 0, 0.664);
+  border-radius: 4px;
+}
+
+#container {
+  width: 600px;
+  right: calc(50% - 350px);
+  top: calc(50% - 150px);
+  position: fixed;
+}
