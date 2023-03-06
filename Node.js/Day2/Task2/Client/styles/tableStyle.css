@@ -1,0 +1,18 @@
+table {
+  padding: 5px;
+  margin: 30px 0px;
+  display: none;
+}
+table th {
+  border: 1px solid #b3adad;
+  padding: 5px;
+  background: #732d1c;
+  color: #ffffff;
+}
+table td {
+  border: 1px solid #b3adad;
+  text-align: center;
+  padding: 5px;
+  background: #ffffff;
+  color: #313030;
+}
