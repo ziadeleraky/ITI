@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="w-50 mx-auto my-5 text-center border-5 border">
+      <div class="App__header p-4 bg-danger text-white">
+        <h1 class="m-0">To-Do List</h1>
+      </div>
+      <div class="App__body section-padding" style="background-color: rgb(8, 188, 198)">
+        <div class="body__todo-list"></div>
+        <div class="p-4">
+          <h2 class="section-padding mb-4">Add New To-Do</h2>
+
+          <div>
+            <input class="form-control" type="text" id="title" name="title" placeholder="Enter The Title" />
+          </div>
+          <div class="d-flex gap-2">
+            <input class="form-control my-2" type="number" id="hour" name="hour" placeholder="Hour" />
+            <input class="form-control my-2" type="number" id="min" name="min" placeholder="Mins" />
+          </div>
+          <div class="d-flex gap-2 mb-3">
+            <select class="form-select" aria-label="Default select example" name="day" id="day">
+              <option selected disabled>Days</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select class="form-select" aria-label="Default select example" name="month" id="month">
+              <option selected disabled>Months</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <select class="form-select" name="year" id="year">
+              <option selected disabled>Year</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+              <option value="2026">2026</option>
+            </select>
+          </div>
+          <div>
+            <input type="submit" class="btn btn-dark" id="add" value="Add Task" />
+            <input type="submit" class="btn btn-dark my-2" id="notify" value="Notify" />
+          </div>
+        </div>
+      </div>
+      <div>
+      </div>
+      <div id="tasks" class="tasks text-white"></div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="idb.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
