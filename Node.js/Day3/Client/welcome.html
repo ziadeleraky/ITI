@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome 😊</title>
+    <link rel="stylesheet" href="./styles/tableStyle.css" />
+  </head>
+  <body style="background-color: #5c2d34; color: white; font-size: 25px; width: 50%; margin: 75px auto 0">
+    <h2>Welcome <span style="color: wheat; font-weight: 800">{clientName}</span> you entered data as follows:</h2>
+    <ul>
+      <li>Name: {clientName}</li>
+      <li>Email: {clientEmail}</li>
+      <li>Mobile: {clientMobile}</li>
+      <li>Address: {clientAddress}</li>
+    </ul>
+    <button
+      id="btn"
+      style="
+        width: 200px;
+        padding: 5px 0;
+        border-radius: 5px;
+        color: #5c2d34;
+        letter-spacing: 2px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        cursor: pointer;
+      "
+    >
+      Display Clients
+    </button>
+    <div id="result">
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Address</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
