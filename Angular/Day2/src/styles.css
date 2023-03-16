@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  text-align: center;
+  background-color: brown;
+  color: wheat;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+input {
+  padding-left: 30px;
+}
+
+input,
+button {
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+img {
+  width: 40%;
+  border-radius: 25px;
+}
+
