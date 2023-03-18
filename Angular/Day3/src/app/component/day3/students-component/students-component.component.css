@@ -1,0 +1,13 @@
+div {
+  width: fit-content;
+  margin: auto;
+}
+
+table {
+  border: 1px solid wheat;
+}
+
+td {
+  border: 1px solid wheat;
+  padding: 10px 40px;
+}

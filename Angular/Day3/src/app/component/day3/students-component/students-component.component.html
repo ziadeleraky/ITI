@@ -1,0 +1,14 @@
+<div *ngIf="students.length">
+  <table>
+    <thead>
+      <td>Name</td>
+      <td>Age</td>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of students">
+        <td>{{ student.name }}</td>
+        <td>{{ student.age }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

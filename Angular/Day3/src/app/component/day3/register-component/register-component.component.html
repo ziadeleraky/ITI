@@ -1,0 +1,31 @@
+<div>
+  <label for="">Name: </label>
+  <input type="text" placeholder="Enter your name" [(ngModel)]="name" />
+  <div *ngIf="name.length > 3 && name; then nameValid; else nameNotValid"></div>
+</div>
+<div>
+  <label for="">Age: </label>
+  <input type="number" placeholder="Enter your age" [(ngModel)]="age" />
+  <div *ngIf="age < 40 && age > 20; then ageValid; else ageNotValid"></div>
+</div>
+<button (click)="data()">Add</button>
+
+<ng-template #nameValid>
+  <p style="color: rgb(0, 253, 0); font-size: 20px">Name is Valid</p>
+</ng-template>
+
+<ng-template #nameNotValid>
+  <p style="color: rgb(78, 0, 0); font-size: 20px" *ngIf="name != ''">
+    Name must be more than or equals 3 characters
+  </p>
+</ng-template>
+
+<ng-template #ageValid>
+  <p style="color: rgb(0, 253, 0); font-size: 20px">Age is Valid</p>
+</ng-template>
+
+<ng-template #ageNotValid>
+  <p style="color: rgb(78, 0, 0); font-size: 20px" *ngIf="age">
+    Age must be between 20 & 40
+  </p>
+</ng-template>
