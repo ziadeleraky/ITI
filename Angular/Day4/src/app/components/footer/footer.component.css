@@ -1,0 +1,7 @@
+footer {
+  background-color: bisque !important;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

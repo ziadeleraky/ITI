@@ -1,0 +1,11 @@
+<div
+  class="card m-4 mx-auto text-center"
+  style="width: 18rem"
+  *ngFor="let student of students"
+>
+  <div class="card-body">
+    <h5 class="card-title">Name: {{ student.name }}</h5>
+    <h6 class="card-title">Age: {{ student.age }}</h6>
+    <h6 class="card-title">Address: {{ student.address }}</h6>
+  </div>
+</div>
