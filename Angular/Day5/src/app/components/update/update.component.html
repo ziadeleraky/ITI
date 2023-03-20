@@ -1,0 +1,93 @@
+<div class="w-25 m-auto mt-5">
+  <form class="row g-3" [formGroup]="form" (ngSubmit)="data(form)">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Name</label>
+      <input
+        type="text"
+        class="form-control"
+        formControlName="name"
+        id="exampleFormControlInput1"
+        placeholder="Enter your name"
+      />
+      <p
+        style="color: red"
+        *ngIf="!nameValidation && form.controls['name'].value"
+      >
+        Length of the name must be more than 3 chars
+      </p>
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput2" class="form-label">Age</label>
+      <input
+        type="number"
+        class="form-control"
+        formControlName="age"
+        id="exampleFormControlInput2"
+        placeholder="Enter your age"
+      />
+      <p
+        style="color: red"
+        *ngIf="!ageValidation && form.controls['age'].value"
+      >
+        Age must be between 20 and 40
+      </p>
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput3" class="form-label"
+        >Email address</label
+      >
+      <input
+        type="email"
+        class="form-control"
+        formControlName="email"
+        id="exampleFormControlInput3"
+        placeholder="Enter your email"
+      />
+      <p
+        style="color: red"
+        *ngIf="!emailValidation && form.controls['email'].value"
+      >
+        Email must be like this name@example.com
+      </p>
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput4" class="form-label"
+        >Phone</label
+      >
+      <input
+        type="number"
+        class="form-control"
+        formControlName="phone"
+        id="exampleFormControlInput4"
+        placeholder="Enter your phone"
+      />
+      <p
+        style="color: red"
+        *ngIf="!phoneValidation && form.controls['phone'].value"
+      >
+        Phone is required
+      </p>
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput5" class="form-label"
+        >City</label
+      >
+      <input
+        type="string"
+        class="form-control"
+        formControlName="city"
+        id="exampleFormControlInput5"
+        placeholder="Enter your city"
+      />
+      <p
+        style="color: red"
+        *ngIf="!cityValidation && form.controls['city'].value"
+      >
+        City is required
+      </p>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-info mb-3">Update</button>
+    </div>
+  </form>
+</div>

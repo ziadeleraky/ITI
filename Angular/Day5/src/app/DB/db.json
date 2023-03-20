@@ -1,0 +1,12 @@
+{
+  "students": [
+    {
+      "name": "ziad eleraky",
+      "age": 24,
+      "email": "ziad@gmail.com",
+      "phone": 1234523,
+      "city": "Sheikh Zayed",
+      "id": 1
+    }
+  ]
+}

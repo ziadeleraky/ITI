@@ -1,0 +1,28 @@
+<table class="table" *ngIf="Students.length !== 0">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Age</th>
+      <th scope="col">Phone</th>
+      <th scope="col">City</th>
+      <th scope="col">Update</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of Students">
+      <th scope="row">{{ student.id }}</th>
+      <td>{{ student.name }}</td>
+      <td>{{ student.email }}</td>
+      <td>{{ student.age }}</td>
+      <td>{{ student.phone }}</td>
+      <td>{{ student.city }}</td>
+      <td>
+        <a class="btn btn-info" [routerLink]="['update', student.id]">Update</a>
+      </td>
+      <td><a class="btn btn-danger" (click)="delete(student.id)">Delete</a></td>
+    </tr>
+  </tbody>
+</table>
