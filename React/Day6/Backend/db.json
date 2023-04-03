@@ -1,0 +1,95 @@
+{
+  "movies": [
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "release_date": "2008-07-18"
+    },
+    {
+      "id": 6,
+      "title": "Forrest Gump",
+      "director": "Robert Zemeckis",
+      "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "release_date": "1994-07-06"
+    },
+    {
+      "id": 7,
+      "title": "The Matrix",
+      "director": "The Wachowskis",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "release_date": "1999-03-31"
+    },
+    {
+      "id": 9,
+      "title": "Inception",
+      "director": "Christopher Nolan",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "release_date": "2010-07-16"
+    },
+    {
+      "id": 10,
+      "title": "The Silence of the Lambs",
+      "director": "Jonathan Demme",
+      "description": "A young FBI cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+      "release_date": "1991-02-14"
+    },
+    {
+      "id": 11,
+      "title": "Fight Club",
+      "director": "David Fincher",
+      "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "release_date": "1999-10-15"
+    },
+    {
+      "id": 13,
+      "title": "Goodfellas",
+      "director": "Martin Scorsese",
+      "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+      "release_date": "1990-09-21"
+    },
+    {
+      "id": 15,
+      "title": "Saving Private Ryan",
+      "director": "Steven Spielberg",
+      "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+      "release_date": "1998-07-24"
+    },
+    {
+      "title": "Nihil itaque quo qui",
+      "director": "Neque omnis qui labo",
+      "description": "In sunt numquam labo",
+      "release_date": "2015-10-01",
+      "id": 20
+    },
+    {
+      "title": "Debitis amet sit d",
+      "director": "Quasi nihil impedit",
+      "description": "Dolorum in quas temp",
+      "release_date": "1976-05-26",
+      "id": 21
+    },
+    {
+      "title": "test",
+      "director": "test",
+      "description": "test",
+      "release_date": "2023-04-04",
+      "id": 22
+    },
+    {
+      "title": "Eveniet molestiae v",
+      "director": "Sit illum duis vol",
+      "description": "Laudantium quod dol",
+      "release_date": "1994-11-04",
+      "id": 23
+    },
+    {
+      "title": "zzz",
+      "director": "zzz",
+      "description": "zzz",
+      "release_date": "2023-04-05",
+      "id": 24
+    }
+  ]
+}
