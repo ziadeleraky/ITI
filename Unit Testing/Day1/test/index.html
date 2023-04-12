@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mocha Test</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+
+    <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
+    <script src="https://cdn.rawgit.com/chaijs/chai/2.2.0/chai.js"></script>
+
+    <script>
+      mocha.setup("bdd");
+      expect = chai.expect;
+
+      // Add your test file here
+      var script = document.createElement("script");
+      script.src = "index.test.js";
+      document.body.appendChild(script);
+
+      // Run Mocha
+      mocha.run();
+    </script>
+  </body>
+</html>
