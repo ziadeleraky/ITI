@@ -1,0 +1,130 @@
+{
+  "products": [
+    {
+      "name": "Samsung Galaxy S23",
+      "price": 999,
+      "category": "Electronics",
+      "description": "The Samsung Galaxy S20 features a 6.2-inch display and a powerful Exynos 990 processor for lightning-fast performance.",
+      "id": 2
+    },
+    {
+      "id": 4,
+      "name": "Levi's 501 Original Fit Jeans",
+      "price": 69.5,
+      "category": "Clothing",
+      "description": "The Levi's 501 Original Fit Jeans are a timeless classic with a straight leg and regular fit."
+    },
+    {
+      "id": 5,
+      "name": "Sony WH-1000XM4 Wireless Headphones",
+      "price": 349.99,
+      "category": "Electronics",
+      "description": "The Sony WH-1000XM4 Wireless Headphones feature industry-leading noise-cancellation technology for immersive audio experience."
+    },
+    {
+      "id": 6,
+      "name": "Apple Watch Series 6",
+      "price": 399,
+      "category": "Electronics",
+      "description": "The Apple Watch Series 6 features an always-on display and advanced health monitoring capabilities."
+    },
+    {
+      "id": 7,
+      "name": "Fender Stratocaster Electric Guitar",
+      "price": 1099.99,
+      "category": "Musical Instruments",
+      "description": "The Fender Stratocaster Electric Guitar is a timeless classic with a distinctive sound and style."
+    },
+    {
+      "id": 8,
+      "name": "JBL Flip 5 Waterproof Portable Bluetooth Speaker",
+      "price": 119.95,
+      "category": "Electronics",
+      "description": "The JBL Flip 5 is a portable and waterproof Bluetooth speaker with 12 hours of battery life."
+    },
+    {
+      "id": 9,
+      "name": "Adidas Ultraboost 20 Shoes",
+      "price": 180,
+      "category": "Footwear",
+      "description": "The Adidas Ultraboost 20 Shoes are made with responsive Boost cushioning and a breathable knit upper."
+    },
+    {
+      "id": 10,
+      "name": "Patagonia Better Sweater 1/4-Zip Fleece Jacket",
+      "price": 119,
+      "category": "Clothing",
+      "description": "The Patagonia Better Sweater 1/4-Zip Fleece Jacket is made with recycled materials and features a cozy, sweater-like texture."
+    },
+    {
+      "id": 11,
+      "name": "Apple MacBook Air",
+      "price": 999,
+      "category": "Electronics",
+      "description": "The Apple MacBook Air features a stunning Retina display and the latest 8th-generation Intel Core processors."
+    },
+    {
+      "id": 12,
+      "name": "Sony Alpha a7 III Mirrorless Camera",
+      "price": 1999.99,
+      "category": "Electronics",
+      "description": "The Sony Alpha a7 III Mirrorless Camera boasts a 24.2-megapixel full-frame sensor for stunning image quality."
+    },
+    {
+      "id": 13,
+      "name": "Bose QuietComfort Earbuds",
+      "price": 279,
+      "category": "Electronics",
+      "description": "The Bose QuietComfort Earbuds feature noise-cancellation technology and touch controls for an immersive audio experience."
+    },
+    {
+      "id": 14,
+      "name": "Brooks Ghost 13 Running Shoes",
+      "price": 130,
+      "category": "Footwear",
+      "description": "The Brooks Ghost 13 Running Shoes are designed for neutral runners and feature a soft, cushioned ride."
+    },
+    {
+      "id": 15,
+      "name": "Amazon Echo Dot (4th Gen) Smart Speaker",
+      "price": 49.99,
+      "category": "Electronics",
+      "description": "The Amazon Echo Dot (4th Gen) Smart Speaker features Alexa and can control your smart home devices."
+    },
+    {
+      "id": 16,
+      "name": "Lululemon Align Pant II",
+      "price": 98,
+      "category": "Clothing",
+      "description": "The Lululemon Align Pant II is made with buttery-soft fabric and features a high-rise waist for ultimate comfort during workouts."
+    },
+    {
+      "id": 17,
+      "name": "GoPro HERO9 Black",
+      "price": 449.99,
+      "category": "Electronics",
+      "description": "The GoPro HERO9 Black features hyper-smooth stabilization and a 5K resolution sensor for stunning action footage."
+    },
+    {
+      "id": 18,
+      "name": "Taylor GS Mini Mahogany Acoustic Guitar",
+      "price": 529,
+      "category": "Musical Instruments",
+      "description": "The Taylor GS Mini Mahogany Acoustic Guitar is a smaller-scale guitar with a big, bold tone."
+    },
+    {
+      "id": 19,
+      "name": "Bose SoundLink Around-Ear Wireless Headphones II",
+      "price": 229,
+      "category": "Electronics",
+      "description": "The Bose SoundLink Around-Ear Wireless Headphones II feature advanced audio technology and 15 hours of battery life."
+    },
+    {
+      "name": "Adidas Ultraboost DNA Shoe",
+      "price": 180,
+      "category": "Footwear",
+      "description": "The Adidas Ultraboost DNA Shoes are designed for running and feature a supportive fit and responsive cushioning.",
+      "id": 20
+    }
+  ]
+}
