@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Tailwind Project</title>
+  </head>
+  <body>
+    <div class="">
+      <!-- Header -->
+      <div class="header flex flex-col gap-5 md:flex-row-reverse container mx-auto">
+        <!-- Header Picture -->
+        <div class="header__picture shadow-xl w-full md:shadow-none">
+          <img
+            class="object-cover rounded-xl h-full md:rounded-none"
+            src="../public//imgs/beach-work.jpg"
+            alt="Beach Work"
+          />
+        </div>
+        <!-- Header Content -->
+        <div class="content py-5 md:px-5 lg:ps-20">
+          <!-- Header Logo -->
+          <div class="logo hidden md:block w-2/4 my-5">
+            <img src="../public/imgs/logo.svg" alt="Workcation" class="object-cover w-full" />
+          </div>
+          <!-- Header Paragraph -->
+          <div class="header__paragraph">
+            <p class="text-4xl font-sans font-bold mb-4 md:text-3xl">
+              You can work from anywhere. <span class="text-blue-400">Take advantage of it.</span>
+            </p>
+            <p class="text-xl md:text-lg">
+              Workcation helps you find work-friendly rentals in beautiful locations so you can
+              enjoy some nice weather even when you're not on vacation.
+            </p>
+          </div>
+          <!-- Header Button -->
+          <div class="header__button mt-6">
+            <button class="bg-blue-400 text-white p-3 font-bold rounded-lg shadow-lg">
+              BOOK YOUR ESCAPE
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- End Header -->
+      <!-- Section -->
+      <section class="bg-gray-100">
+        <div class="container mx-auto pt-8">
+          <!-- Head -->
+          <div class="sec-paragraph md:ps-16 lg:ps-20 xl:ps-32">
+            <p class="font-bold">Popular destinations</p>
+            <p>A selection of great work-friendly cities with lots to see and explore.</p>
+          </div>
+          <!-- Body -->
+          <div class="body md:flex md:flex-wrap md:gap-2 md:justify-center">
+            <div class="card flex bg-white rounded-2xl shadow-lg mt-5 md:w-5/12 lg:w-3/12">
+              <div class="img-container w-32">
+                <img
+                  class="rounded-l-2xl object-cover w-full"
+                  src="../public/imgs/toronto.jpg"
+                  alt="Toronto"
+                />
+              </div>
+              <div class="p-5">
+                <p class="font-bold">Toronto</p>
+                <p>$120 / night average</p>
+                <p class="mt-2 text-blue-500">Explore 76 properties</p>
+              </div>
+            </div>
+            <div class="card flex bg-white rounded-2xl shadow-lg mt-5 md:w-5/12 lg:w-3/12">
+              <div class="img-container w-32">
+                <img
+                  class="rounded-l-2xl object-cover w-full"
+                  src="../public/imgs/malibu.jpg"
+                  alt="Toronto"
+                />
+              </div>
+              <div class="p-5">
+                <p class="font-bold">Malibu</p>
+                <p>$120 / night average</p>
+                <p class="mt-2 text-blue-500">Explore 76 properties</p>
+              </div>
+            </div>
+            <div class="card flex bg-white rounded-2xl shadow-lg mt-5 md:w-5/12 lg:w-3/12">
+              <div class="img-container w-32">
+                <img
+                  class="rounded-l-2xl object-cover w-full"
+                  src="../public/imgs/chicago.jpg"
+                  alt="Toronto"
+                />
+              </div>
+              <div class="p-5">
+                <p class="font-bold">Chicago</p>
+                <p>$120 / night average</p>
+                <p class="mt-2 text-blue-500">Explore 76 properties</p>
+              </div>
+            </div>
+            <div class="card flex bg-white rounded-2xl shadow-lg mt-5 md:w-5/12 lg:w-3/12">
+              <div class="img-container w-32">
+                <img
+                  class="rounded-l-2xl object-cover w-full"
+                  src="../public/imgs/miami.jpg"
+                  alt="Toronto"
+                />
+              </div>
+              <div class="p-5">
+                <p class="font-bold">Miami</p>
+                <p>$120 / night average</p>
+                <p class="mt-2 text-blue-500">Explore 76 properties</p>
+              </div>
+            </div>
+            <div class="card flex bg-white rounded-2xl shadow-lg mt-5 md:w-5/12 lg:w-3/12">
+              <div class="img-container w-32">
+                <img
+                  class="rounded-l-2xl object-cover w-full"
+                  src="../public/imgs/colorado.jpg"
+                  alt="Toronto"
+                />
+              </div>
+              <div class="p-5">
+                <p class="font-bold">Colorado</p>
+                <p>$120 / night average</p>
+                <p class="mt-2 text-blue-500">Explore 76 properties</p>
+              </div>
+            </div>
+            <div class="card flex bg-white rounded-2xl shadow-lg mt-5 md:w-5/12 lg:w-3/12">
+              <div class="img-container w-32">
+                <img
+                  class="rounded-l-2xl object-cover w-full"
+                  src="../public/imgs/seattle.jpg"
+                  alt="Toronto"
+                />
+              </div>
+              <div class="p-5">
+                <p class="font-bold">Seattle</p>
+                <p>$120 / night average</p>
+                <p class="mt-2 text-blue-500">Explore 76 properties</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- End Section -->
+    </div>
+  </body>
+</html>
