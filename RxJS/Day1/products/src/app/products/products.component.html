@@ -1,0 +1,72 @@
+<!-- First Method -->
+<!-- <h1 class="text-center m-5">Products</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Title</th>
+      <th scope="col">Description</th>
+      <th scope="col">Price</th>
+      <th scope="col">Brand</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of data.products">
+      <th>{{product.id}}</th>
+      <td>{{product.title}}</td>
+      <td>{{product.description}}</td>
+      <td>${{product.price}}</td>
+      <td>{{product.brand}}</td>
+    </tr>
+  </tbody>
+</table> -->
+
+<!-- Second Method -->
+<h1 class="text-center m-5">Products</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Title</th>
+      <th scope="col">Description</th>
+      <th scope="col">Price</th>
+      <th scope="col">Brand</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="data$ | async as data">
+    <tr *ngFor="let product of data.products">
+      <th>{{ product.id }}</th>
+      <td>{{ product.title }}</td>
+      <td>{{ product.description }}</td>
+      <td>${{ product.price }}</td>
+      <td>{{ product.brand }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- <div>
+  <ul *ngFor="let i of Ob">
+    <li>{{ i + 1 }}</li>
+  </ul>
+</div> -->
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Title</th>
+      <th scope="col">Description</th>
+      <th scope="col">Price</th>
+      <th scope="col">Brand</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="data$ | async as data">
+    <tr *ngFor="let i of Ob">
+      <th>{{ data.products[i].id }}</th>
+      <td>{{ data.products[i].title }}</td>
+      <td>{{ data.products[i].description }}</td>
+      <td>${{ data.products[i].price }}</td>
+      <td>{{ data.products[i].brand }}</td>
+    </tr>
+  </tbody>
+</table>
